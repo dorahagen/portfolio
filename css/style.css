@@ -1,0 +1,85 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #0b0b0b;
+}
+
+nav {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	float: left;
+}
+
+li {
+	font-family: Raleway, sans-serif;
+	font-weight: 600;
+	color: #fff;
+	background-repeat: no-repeat;
+	height: 60px;
+	width: 60px;
+	border-bottom: 1px solid #363636;
+}
+
+#linkedin {
+	background-image: url('../images/linkedin-off.jpg');
+}
+
+#linkedin:hover {
+	background-image: url('../images/linkedin-on.jpg');
+}
+
+#twitter {
+	background-image: url('../images/twitter-off.jpg');
+}
+
+#twitter:hover {
+	background-image: url('../images/twitter-on.jpg');
+}
+
+#behance {
+	background-image: url('../images/behance-off.jpg');
+}
+
+#behance:hover {
+	background-image: url('../images/behance-on.jpg');
+}
+
+#skype {
+	background-image: url('../images/skype-off.jpg');
+}
+
+#skype:hover {
+	background-image: url('../images/skype-on.jpg');
+}
+
+#email {
+	background-image: url('../images/email-off.jpg');
+}
+
+#email:hover {
+	background-image: url('../images/email-on.jpg');
+}
+
+main {
+	background-image: url('../images/bkg.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 60px;
+	border-left: 1px solid #363636;
+}
+
+h1, h2, h3 {
+	margin-left: -1000px;
+}
+
+
