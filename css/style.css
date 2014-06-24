@@ -1,85 +1,34 @@
-html {
-	height: 100%;
+#linkedin {
+	overflow: visible;
+	border-bottom: 1px solid #363636;
+	position: relative;
+	cursor: pointer;
 }
 
-body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	background: #0b0b0b;
+.linkedin-off {
+	background-image: url('../images/linkedin-off.jpg');
+	width: 60px;
+	height: 60px;
 }
 
-nav {
-	height: 100%;
-	position: absolute;
+.linkedin-on {
+	height: 60px;
+	position: relative;
 	top: 0;
-	left: 0;
-	float: left;
+	left: -174px;
+	display: none;
 }
 
-li {
+a {
+	background: #0359a3;
+	background-image: url('../images/linkedin-on.jpg');
+	background-repeat: no-repeat;
+	background-position: left;
 	font-family: Raleway, sans-serif;
 	font-weight: 600;
 	color: #fff;
-	background-repeat: no-repeat;
-	height: 60px;
-	width: 60px;
-	border-bottom: 1px solid #363636;
-}
-
-#linkedin {
-	background-image: url('../images/linkedin-off.jpg');
-}
-
-#linkedin:hover {
-	background-image: url('../images/linkedin-on.jpg');
-}
-
-#twitter {
-	background-image: url('../images/twitter-off.jpg');
-}
-
-#twitter:hover {
-	background-image: url('../images/twitter-on.jpg');
-}
-
-#behance {
-	background-image: url('../images/behance-off.jpg');
-}
-
-#behance:hover {
-	background-image: url('../images/behance-on.jpg');
-}
-
-#skype {
-	background-image: url('../images/skype-off.jpg');
-}
-
-#skype:hover {
-	background-image: url('../images/skype-on.jpg');
-}
-
-#email {
-	background-image: url('../images/email-off.jpg');
-}
-
-#email:hover {
-	background-image: url('../images/email-on.jpg');
-}
-
-main {
-	background-image: url('../images/bkg.jpg');
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 100%;
+	text-decoration: none;
+	padding: 22px 22px 22px 82px;
 	position: absolute;
 	top: 0;
-	left: 60px;
-	border-left: 1px solid #363636;
 }
-
-h1, h2, h3 {
-	margin-left: -1000px;
-}
-
-
