@@ -1,4 +1,17 @@
-#linkedin {
+body {
+	background: #0b0b0b;
+}
+
+a {
+	font-family: Raleway, sans-serif;
+	font-weight: 600;
+	color: #fff;
+	text-decoration: none;
+	padding: 22px 22px 22px 74px;
+	position: absolute;
+	top: 0;
+}
+#linkedin, #twitter, #behance, #email {
 	overflow: visible;
 	border-bottom: 1px solid #363636;
 	position: relative;
@@ -19,16 +32,73 @@
 	display: none;
 }
 
-a {
+.linkedin-on a {
 	background: #0359a3;
 	background-image: url('../images/linkedin-on.jpg');
 	background-repeat: no-repeat;
 	background-position: left;
-	font-family: Raleway, sans-serif;
-	font-weight: 600;
-	color: #fff;
-	text-decoration: none;
-	padding: 22px 22px 22px 82px;
-	position: absolute;
-	top: 0;
 }
+
+.twitter-off {
+	background-image: url('../images/twitter-off.jpg');
+	width: 60px;
+	height: 60px;
+}
+
+.twitter-on {
+	height: 60px;
+	position: relative;
+	top: 0;
+	left: -260px;
+	display: none;
+}
+
+.twitter-on a {
+	background: #0592c0;
+	background-image: url('../images/twitter-on.jpg');
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.behance-off {
+	background-image: url('../images/behance-off.jpg');
+	width: 60px;
+	height: 60px;
+}
+
+.behance-on {
+	height: 60px;
+	position: relative;
+	top: 0;
+	left: -437px;
+	display: none;
+}
+
+.behance-on a {
+	background: #95168b;
+	background-image: url('../images/behance-on.jpg');
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.email-off {
+	background-image: url('../images/email-off.jpg');
+	width: 60px;
+	height: 60px;
+}
+
+.email-on {
+	height: 60px;
+	position: relative;
+	top: 0;
+	left: -241px;
+	display: none;
+}
+
+.email-on a {
+	background: #e59702;
+	background-image: url('../images/email-on.jpg');
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
