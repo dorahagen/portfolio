@@ -15,7 +15,7 @@ $(document).ready(function() {
 	});
 	$('.linkedin-on').mouseleave(function() {
 		$(this).animate (
-			{'left': '-174px'},
+			{'left': '-256px'},
 			500,
 			function() {
 				// slide in complete
@@ -39,7 +39,7 @@ $(document).ready(function() {
 	});
 	$('.twitter-on').mouseleave(function() {
 		$(this).animate (
-			{'left': '-174px'},
+			{'left': '-260px'},
 			500,
 			function() {
 				// slide in complete
@@ -63,7 +63,7 @@ $(document).ready(function() {
 	});
 	$('.behance-on').mouseleave(function() {
 		$(this).animate (
-			{'left': '-174px'},
+			{'left': '-437px'},
 			500,
 			function() {
 				// slide in complete
@@ -87,7 +87,7 @@ $(document).ready(function() {
 	});
 	$('.email-on').mouseleave(function() {
 		$(this).animate (
-			{'left': '-174px'},
+			{'left': '-241px'},
 			500,
 			function() {
 				// slide in complete
