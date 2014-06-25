@@ -7,7 +7,7 @@ $(document).ready(function() {
 		$('.linkedin-on').show()
 		.animate (
 			{'left': '0px'},
-			100,
+			200,
 			function() {
 				// slide out complete
 			}
@@ -16,7 +16,7 @@ $(document).ready(function() {
 	$('.linkedin-on').mouseleave(function() {
 		$(this).animate (
 			{'left': '-256px'},
-			500,
+			200,
 			function() {
 				// slide in complete
 			}
@@ -31,7 +31,7 @@ $(document).ready(function() {
 		$('.twitter-on').show()
 		.animate (
 			{'left': '0px'},
-			100,
+			200,
 			function() {
 				// slide out complete
 			}
@@ -40,7 +40,7 @@ $(document).ready(function() {
 	$('.twitter-on').mouseleave(function() {
 		$(this).animate (
 			{'left': '-260px'},
-			500,
+			200,
 			function() {
 				// slide in complete
 			}
@@ -55,7 +55,7 @@ $(document).ready(function() {
 		$('.behance-on').show()
 		.animate (
 			{'left': '0px'},
-			100,
+			200,
 			function() {
 				// slide out complete
 			}
@@ -64,7 +64,7 @@ $(document).ready(function() {
 	$('.behance-on').mouseleave(function() {
 		$(this).animate (
 			{'left': '-437px'},
-			500,
+			200,
 			function() {
 				// slide in complete
 			}
@@ -79,7 +79,7 @@ $(document).ready(function() {
 		$('.email-on').show()
 		.animate (
 			{'left': '0px'},
-			100,
+			200,
 			function() {
 				// slide out complete
 			}
@@ -88,7 +88,7 @@ $(document).ready(function() {
 	$('.email-on').mouseleave(function() {
 		$(this).animate (
 			{'left': '-241px'},
-			500,
+			200,
 			function() {
 				// slide in complete
 			}
